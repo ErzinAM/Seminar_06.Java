@@ -29,7 +29,7 @@ public class Main {
         Notebook nb1 = new Notebook();
         nb1.model = "LG";
         nb1.ssd = 256;
-        nb1.color = "red";
+        nb1.color = "black";
         nb1.ram = 8;
         nb1.opSystem = "Windows10";
 
@@ -43,7 +43,7 @@ public class Main {
         Notebook nb3 = new Notebook();
         nb3.model = "Acer";
         nb3.ssd = 512;
-        nb3.color = "pink";
+        nb3.color = "white";
         nb3.ram = 16;
         nb3.opSystem = "Windows11";
 
@@ -55,14 +55,14 @@ public class Main {
         nb4.opSystem = "Windows11";
 
         Notebook nb5 = new Notebook();
-        nb5.model = "Huawei MateBook";
+        nb5.model = "Huawei";
         nb5.ssd = 128;
-        nb5.color = "black";
+        nb5.color = "red";
         nb5.ram = 8;
         nb5.opSystem = "Linux";
 
         Notebook nb6 = new Notebook();
-        nb6.model = "Tecno MegaBook";
+        nb6.model = "Tecno";
         nb6.ssd = 512;
         nb6.color = "white";
         nb6.ram = 6;
@@ -100,19 +100,19 @@ public class Main {
             }
             switch (choice) {
                 case 1:
-                    System.out.println("Минимальный объем ОЗУ?");
+                    System.out.println("Минимальный объем ОЗУ");
                     filters.put("ram", scanner.nextInt());
                     break;
                 case 2:
-                    System.out.println("Минимальный объем ЖД?");
+                    System.out.println("Минимальный объем ЖД");
                     filters.put("hdd", scanner.nextInt());
                     break;
                 case 3:
-                    System.out.println("Операционная система?");
+                    System.out.println("Операционная система");
                     filters.put("os", scanner.next());
                     break;
                 case 4:
-                    System.out.println("Цвет?");
+                    System.out.println("Цвет");
                     filters.put("color", scanner.next());
                     break;
                 case 5:
