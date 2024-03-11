@@ -27,28 +27,28 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         Notebook nb1 = new Notebook();
-        nb1.model = "Lenovo ThinkPad";
+        nb1.model = "LG";
         nb1.ssd = 256;
         nb1.color = "red";
         nb1.ram = 8;
         nb1.opSystem = "Windows10";
 
         Notebook nb2 = new Notebook();
-        nb2.model = "Lenovo IdeaPad";
+        nb2.model = "Lenovo";
         nb2.ssd = 128;
         nb2.color = "black";
         nb2.ram = 6;
         nb2.opSystem = "Windows10";
 
         Notebook nb3 = new Notebook();
-        nb3.model = "KitayskyG-no";
+        nb3.model = "Acer";
         nb3.ssd = 512;
         nb3.color = "pink";
         nb3.ram = 16;
         nb3.opSystem = "Windows11";
 
         Notebook nb4 = new Notebook();
-        nb4.model = "Echips Envy";
+        nb4.model = "Asus";
         nb4.ssd = 256;
         nb4.color = "black";
         nb4.ram = 16;
